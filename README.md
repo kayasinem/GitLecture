@@ -18,4 +18,4 @@ Siteye giren kullanıcılar üyelik oluşturabilecek. Üyelik sayesinde kullanı
 |Simge Sinem	| Kaya	 | Takım Lideri |
 |Meltem| Keniş | Front-End Developer |
 |Sebahattin| Altunay	| Full-Stack Developer |
-|Onur|  |	Tester |
+|Onur| Yılmaz |	Tester |

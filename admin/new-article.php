@@ -88,7 +88,7 @@ include "config.php";
                 if (isset($_POST['publish'])){
                     $conn->exec($sql);
                     echo '<script>
-                            alert("Kategori başarıyla eklendi.");
+                            alert("İçerik başarıyla eklendi.");
                           </script>';
 
                 }

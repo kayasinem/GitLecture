@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Sebahattin ALTUNAY
- * Date: 6.03.2018
- * Time: 21:30
+ * Date: 11.03.2018
+ * Time: 14:59
  */
 
 include "config.php";
@@ -74,56 +74,59 @@ include "config.php";
     <!--main content start-->
     <section id="main-content">
         <section class="wrapper">
-            <?php
 
-            $title = isset($_POST['title']) ? $_POST['title'] : '';
-            $category = isset($_POST['category']) ? $_POST['category'] : '';
-            $image = isset($_POST['image_url']) ? $_POST['image_url'] : '';
-            $content = isset($_POST['content']) ? $_POST['content'] : '';
-            $author = isset($_POST['author']) ? $_POST['author'] : '';
-
-            try {
-                $sql = "INSERT INTO articles (title, category, image_url, content, author) VALUES ('$title', '$category', '$image', '$content', '$author')";
-                // use exec() because no results are returned
-                if (isset($_POST['publish'])){
-                    $conn->exec($sql);
-                    echo '<script>
-                            alert("Kategori başarıyla eklendi.");
-                          </script>';
-
-                }
-            }
-            catch(PDOException $e)
-            {
-//                echo $sql . "<br>" . $e->getMessage();
-                echo '<script>
-                            alert("Lütfen tüm alanları doldurun!");
-                          </script>';
-            }
-
-            ?>
             <h3><i class="fa fa-angle-right"></i> Formlar</h3>
             <!-- BASIC FORM ELELEMNTS -->
             <div class="row mt">
                 <div class="col-lg-10">
                     <div class="form-panel">
-                        <h4 class="mb"><i class="fa fa-angle-right"></i> İçerik Ekle</h4>
+                        <h4 class="mb"><i class="fa fa-angle-right"></i> Kategori Ekle</h4>
+                        <?php
+                        $name = isset($_POST['name']) ? $_POST['name'] : '';
+
+
+                        try {
+                            $sql = "INSERT INTO `categories` (`name`) VALUES ('$name')";
+                            // use exec() because no results are returned
+                            if (isset($_POST['publish'])){
+                                $conn->exec($sql);
+                                echo '<script>
+                                alert("Kategori başarıyla eklendi.");
+                                </script>';
+                            }
+                        }
+                        catch(PDOException $e)
+                        {
+                            echo $sql . "<br>" . $e->getMessage();
+                        }
+
+                        ?>
                         <form align="center" class="form-horizontal style-form" method="post">
                             <div align="center" class="form-group">
                                 <div class="col-sm-6">
-                                    <form action="insert_article.php" method="post">
-                                        <input type="text" name="title" class="form-control" placeholder="Başlık"><br>
-                                        <input type="text" name="category" class="form-control" placeholder="Kategori"><br>
-                                        <input type="file" name="image_url" class="form-control" placeholder="Görsel"><br>
-<!--                                        <input type="file" name="image_url" id="fileToUpload">-->
-                                        <!--                                    <input type="textarea" class="form-control" placeholder="İçerik"><br>-->
-                                        <textarea name="content" class="form-control" placeholder="İçerik"></textarea><br>
-                                        <input type="text" name="author" class="form-control" placeholder="Yazar"><br>
-                                        <button name="publish" class="btn-success">YAYINLA</button>
+                                    <form action="add_category.php" method="post">
+                                        <input type="text" name="name" class="form-control" placeholder="Yeni kategori giriniz!"><br>
+                                        <button name="publish" class="btn-success">EKLE</button>
                                     </form>
                                 </div>
                             </div>
                         </form>
+                        <div class="categories">
+                            <?php
+                            try{
+                                $query=$conn->prepare("Select 'name' from categories");
+                                $query->excute(array(
+                                    'name'
+                                ));
+                                while($row=$query->fetch(PDO::FETCH_OBJ)) {
+                                    /*its getting data in line.And its an object*/
+                                    echo $row->name;
+                                }
+                            }catch(PDOException  $e ){
+                                echo "Error: ".$e;
+                            }
+                            ?>
+                        </div>
                     </div>
                 </div><!-- col-lg-12-->
             </div><!-- /row -->

@@ -141,19 +141,21 @@ include "config.php";
                     <!--                        </div>-->
                     <div style="text-align: justify; width: 90%;" class="details">
                         <?php
-                        $sorgu = $baglanti->query("SELECT * FROM messages ORDER by created_at DESC ");
+//                        $sorgu = $baglanti->query("SELECT * FROM messages ORDER by created_at DESC ");
+//
+//                        if ($baglanti->errno > 0) {
+//                            die("<b>Sorgu Hatası:</b> " . $baglanti->error);
+//                        }
+//
+//                        while($cikti = $sorgu->fetch_array()){
+//                            echo
+//                                "<i class=\"fa fa-inbox\">"."</i>".
+//                                $cikti['created_at'] . "<br>".
+//                                "<a target=\"_blank\" href=\"send_mail.php\">" . $cikti['email'] . "<br>". "</a>" .
+//                                $cikti['content'] . "<hr>";
+//                        }
 
-                        if ($baglanti->errno > 0) {
-                            die("<b>Sorgu Hatası:</b> " . $baglanti->error);
-                        }
-
-                        while($cikti = $sorgu->fetch_array()){
-                            echo
-                                "<i class=\"fa fa-inbox\">"."</i>".
-                                $cikti['created_at'] . "<br>".
-                                "<a target=\"_blank\" href=\"send_mail.php\">" . $cikti['email'] . "<br>". "</a>" .
-                                $cikti['content'] . "<hr>";
-                        }
+                        echo "bildirim alanı";
 
 
                         ?>
@@ -202,23 +204,13 @@ include "config.php";
 <script src="assets/js/sparkline-chart.js"></script>
 <script src="assets/js/zabuto_calendar.js"></script>
 <!-- karşılama mesajı için admin name çekme -->
-<?php
-$sorgu = $baglanti->query("SELECT * FROM admins");
-
-if ($baglanti->errno > 0) {
-    die("<b>Sorgu Hatası:</b> " . $baglanti->error);
-}
-
-while($cikti = $sorgu->fetch_array()){
-?>
 <script type="text/javascript">
     $(document).ready(function () {
         var unique_id = $.gritter.add({
             // (string | mandatory) the heading of the notification
             title: 'Hoşgeldiniz!',
             // (string | mandatory) the text inside the notification
-            text: 'Sn. <?php echo $cikti['fullname'];
-                } ?> ',
+            text: 'Sn. admin ',
             // (string | optional) the image to display on the left
             image: 'assets/img/sebahattin-altunay.jpg',
             // (bool | optional) if you want it to fade out on its own or just sit there

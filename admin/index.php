@@ -103,9 +103,9 @@ include "config.php";
                         <div class="col-md-2 col-sm-2 box0">
                             <div class="box1">
                                 <span><i class="fa fa-file-text"></i></span>
-                                <h3>+2</h3>
+                                <h3>+3></h3>
                             </div>
-                            <p>2 Yeni İçerik</p>
+                            <p>Toplam 3 İçerk</p>
                         </div>
                         <div class="col-md-2 col-sm-2 box0">
                             <div class="box1">
@@ -210,7 +210,7 @@ include "config.php";
             // (string | mandatory) the heading of the notification
             title: 'Hoşgeldiniz!',
             // (string | mandatory) the text inside the notification
-            text: 'Sn. admin ',
+            text: 'Sn. Sebahattin Altunay ',
             // (string | optional) the image to display on the left
             image: 'assets/img/sebahattin-altunay.jpg',
             // (bool | optional) if you want it to fade out on its own or just sit there

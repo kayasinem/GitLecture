@@ -2,10 +2,9 @@
 /**
  * Created by PhpStorm.
  * User: Sebahattin ALTUNAY
- * Date: 3.03.2018
- * Time: 02:13
+ * Date: 12.03.2018
+ * Time: 19:18
  */
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -20,4 +19,12 @@ catch(PDOException $e)
 {
     echo "Connection failed: " . $e->getMessage();
 }
+function countContent($sorgu,$conn ){
+    // get customers from users table
+    $sorgu = $conn->prepare("SELECT COUNT(*) FROM articles");
+    $sorgu->execute();
+    $say = $sorgu->fetchColumn();
+    return $say;
+}
 
+countContent();

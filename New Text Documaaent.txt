@@ -1,0 +1,23 @@
+package com.test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Mainpage {
+	
+	public static void main(String[] orgs) {
+		System.setProperty("webdriver.gecko.driver",
+                "C:\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+		
+ WebDriver driver = new FirefoxDriver();
+ driver.get("https://www.google.com");
+ System.out.println(driver.getTitle());
+ try {
+	 Assert.assertTrue(driver.getTitle().contains("Google"));
+	 System.out.println("Web site Title is True");
+ }
+ catch (Error e){
+	 System.out.println("Web Site Title is False");
+ }
+}
+}

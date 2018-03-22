@@ -15,7 +15,7 @@
 
 		if($errMsg == '') {
 			try {
-				$stmt = $connect->prepare('SELECT id, fullname, username, password, secretpin FROM authors WHERE username = :username');
+				$stmt = $connect->prepare('SELECT id, fullname, username, password FROM admins WHERE username = :username');
 				$stmt->execute(array(
 					':username' => $username
 					));
@@ -29,9 +29,8 @@
 						$_SESSION['name'] = $data['fullname'];
 						$_SESSION['username'] = $data['username'];
 						$_SESSION['password'] = $data['password'];
-						$_SESSION['secretpin'] = $data['secretpin'];
 
-						header('Location: author-dashboard.php');
+						header('Location: dashboard.php');
 						exit;
 					}
 					else

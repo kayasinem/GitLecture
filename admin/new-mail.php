@@ -17,7 +17,7 @@ if(isset($_POST['send'])) {
     $alici = $_POST['alici'];
     $mesaj = $_POST['mesaj'];
 
-    if($errMsg == ''){
+
         try {
             $stmt = $connect->prepare('INSERT INTO messagges (gonderen, alici, mesaj)
 				VALUES (:gonderen, :alici, :mesaj)');
@@ -32,5 +32,5 @@ if(isset($_POST['send'])) {
         catch(PDOException $e) {
             echo $e->getMessage();
         }
-    }
+
 }

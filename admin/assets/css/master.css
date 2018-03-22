@@ -23,6 +23,39 @@ footer {
 }
 }
 
+.img-responsive-1{
+  border-radius: 7px;
+}
+
+.img-responsive-2{
+  border-radius: 7px;
+}
+
+.img-responsive-3{
+  border-radius: 7px;
+}
+
+.business-plan-1 h3{
+  background-color: #000;
+  color: #fff;
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.business-plan-2 h3{
+  background-color: #880015;
+  color: #fff;
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.business-plan-3 h3{
+  background-color: #ff7f27;
+  color: #fff;
+  padding: 5%;
+  border-radius: 3px;
+}
+
 .well{
   background-color: #000;
   color: #fff;
@@ -310,50 +343,182 @@ footer {
   border: 1px solid red;
 }
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
+/* calculator css */
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
+
+
+.calculater-form .box{
+  width: 350px;
+  height: 35px;
   border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 7px 8px;
-  transition: 0.3s;
+  /* background-color: #000; */
+  border-bottom: 2px solid green;
+  color: gray;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+.calculater-form .box:hover{
+  width: 350px;
+  height: 35px;
+  border: none;
+
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
+.calculater-form .submit{
+  width: 200px;
+  height: 35px;
+  border: none;
+  /* background-color: #000; */
+  border: 1px solid green;
+  color: gray;
+
 }
 
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
+.calculater-form .submit:hover{
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: green;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+/* add-customer.php css */
+
+.add-customer{
+  border: 1px solid green;
+  padding: 5%;
+  padding-top: 7%;
+  /* background-color: #35471c; */
+  background-color: #f2f2f2;
+  color: #000;
+  border-radius: 3px;
+  margin-left: 5%;
 }
 
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+.add-customer:hover{
+  border: 1px solid green;
+  padding: 5%;
+  padding-top: 7%;
+  background-color: #35471c;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 5%;
+  box-shadow: 0 0 15px black;
 }
 
+.admin-information{
+  color: #000;
+  padding: 5%;
+  padding-left: 0px;
+  margin-left: 13%;
+}
+.add-30{
+  margin-top: 20px;
+  padding-top: 15px;
+  margin-left: 9%;
+}
+
+.add30-submit{
+  background: transparent;
+  border: none;
+}
+
+/* edit-customer.php css */
+
+.adm-update-form{
+  padding-top: 8%;
+  margin-left: 18%;
+  margin-top: 15px;
+}
+
+.adm-update-form .box{
+  width: 350px;
+  height: 35px;
+  border: none;
+  /* background-color: #000; */
+  border-bottom: 2px solid green;
+  color: gray;
+}
+
+.adm-update-form .box:hover{
+  width: 250px;
+  height: 35px;
+  border: none;
+}
+
+.adm-update-form .submit{
+  width: 200px;
+  height: 35px;
+  border: none;
+  /* background-color: #000; */
+  border: 1px solid green;
+  color: gray;
+}
+
+.adm-update-form .submit:hover{
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: green;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  *{font-size: 12px;}
+  .adm-update-form{
+    padding-top: 8%;
+    margin-left: 18%;
+    margin-top: 15px;
+    border: 1px solid green;
+  }
+
+  .adm-update-form .box{
+    width: 175px;
+    height: 11.5px;
+    border: none;
+    /* background-color: #000; */
+    border-bottom: 2px solid green;
+    color: gray;
+  }
+
+  .adm-update-form .box:hover{
+    width: 125px;
+    height: 11.5px;
+    border: none;
+  }
+
+  .adm-update-form .submit{
+    width: 200px;
+    height: 35px;
+    border: none;
+    /* background-color: #000; */
+    border: 1px solid green;
+    color: gray;
+  }
+
+  .adm-update-form .submit:hover{
+    width: 100px;
+    height: 11.5px;
+    border: none;
+    background-color: green;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}
+
+/* finance.php css */
+
+.finance-table{
+  border: 1px solid green;
+  padding-top: 5%;
+}
+
+.finance-table tr{
+  border-bottom: 1px solid green;
+  border-left: 1px solid green;
+}
+
+.finance-table tr td{
+
+}

@@ -49,7 +49,7 @@
 </head>
 <body>
 
-	<?php include 'cust-dash-header.php'; ?>
+	<?php include 'admin-dash-header.php'; ?>
 			<?php
 				if(isset($errMsg)){
 					echo $errMsg;
@@ -65,9 +65,7 @@
 						<input type="text" name="fullname" value="<?php echo $_SESSION['name']; ?>" autocomplete="off" class="box"/><br /><br />
 						Kullanıcı Adı <br>
 						<input type="text" name="username" value="<?php echo $_SESSION['username']; ?>" disabled autocomplete="off" class="box"/><br /><br />
-						PIN <br>
-						<input type="text" name="secretpin" value="<?php echo $_SESSION['secretpin']; ?>" autocomplete="off" class="box"/><br /><br />
-						<hr>
+
 						Şifre <br>
 						<input type="password" name="password" value="<?php echo $_SESSION['password'] ?>" class="box" /><br/><br />
 						Şifre <br>

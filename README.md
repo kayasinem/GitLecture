@@ -24,11 +24,11 @@ Siteye giren kullanıcılar üyelik oluşturabilecek. Üyelik sayesinde kullanı
 # İş Paketleri Durum Tablosu
 | Özellik No 	| Özellik Başlığı              | Geliştiren Kişi    | Test Eden   | Durum          |
 | :---------- |:-----------------------------| :------------------| :-----------| :--------------|
-| Feat-1      | auth sistemi                 | Sebahattin Altunay | Onur Yılmaz | Geliştiriliyor |
-| Feat-2      | front end tasarımları        | Meltem Keniş       | Onur Yılmaz | Geliştiriliyor |
+| Feat-1      | auth sistemi                 | Sebahattin Altunay | Onur Yılmaz | tamamlandı |
+| Feat-2      | front end tasarımları        | Meltem Keniş       | Onur Yılmaz | tamamlandı |
 | Feat-3      | yönetim paneli içerik ekleme | Sebahattin Altunay | Onur Yılmaz | tamamlandı     |
-| Feat-4      | yönetim paneli               | Sebahattin Altunay | Onur Yılmaz | Geliştiriliyor |
-| Feat-5      | kullanıcı etkileşim formları | Meltem Keniş       | Onur Yılmaz | Geliştiriliyor |
+| Feat-4      | yönetim paneli               | Sebahattin Altunay | Onur Yılmaz | tamamlandı |
+| Feat-5      | kullanıcı etkileşim formları | Meltem Keniş       | Onur Yılmaz | tamamlandı |
 
 # Kullanılan Git Akışı
 ![alt text](https://github.com/alipeker/GitProject/blob/master/dokumantasyon/git_workflow.png "Git Akışı")

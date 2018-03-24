@@ -74,70 +74,18 @@
 <div class="row" style= "text-align: center;">
     <div class="col-md-12">
         <br>
-        <h2>Yazı Başlığı</h2><br>
+        <h2>GHOST RECON: WILDLANDS İNCELEME</h2><br>
         <div class="col-sm-4 business-plan-1 text-justify">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Soğuk savaş dönemi ve sonrasında yazdığı romanları ile ünlenen Tom Clancy, şimdiye kadar oyun dünyasına Rainbow Six, Splinter Cell, Ghost Recon gibi ünlü serileri hediye etti. Tom Clancy imzası ile satışa sunulan neredeyse tüm oyunlar, taktiksel oynanışa, gizliliğe ve tadında bir aksiyona sahipti. Özellikle Ghost Recon serisi ile kimi zaman geçmişe, kimi zaman ise geleceğe dokunan Tom Clancy, Ubisoft'un da adını güçlendiren ünlü isimlerden biri olmayı başardı.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Şimdiye kadar karşımıza çıkan tüm Ghost Recon oyunları kendi çizgisinde gizlilik ve taktiksel oynanışa yoğunluk gösteriyor, bizleri bölüm bölüm hazırlanan yapısı ile içerisine çekmeyi başarıyordu. Ancak çevirimiçi oyunların günümüzde adeta piyasayı domine etmeye başlaması, Ubisoft'ta da planları değiştirdi ve Ghost Recon serisi Wildlands ile ilk defa açık dünya türüne adım attı. Bizleri 2019 yılında kurgusal bir Bolivya'ya götüren yapım, Meksika'lı uyuşturucu karteli Santa Blanca'nın kuyusunu kazmak için görevlendiriyor..</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Santa Blanca kartelinin adeta Bolivya'yı bir narko-devlet haline getirdiği Wildlands'de, Operation King Slayer adı altında ekip üyelerimizle birlikte karteli devirmek için savaşıyor. Dünyanın en büyük kokain üreticisi haline gelen Santa Blanca'yı devirmek için oyun boyunca kartel üyelerini avladığımız veya yakaladığımız Wildlands'te ilerlemek için belli bir akışı takip edebiliyor ya da özgürce dilediğimiz üyelerin kellesini alabiliyoruz. Amerikan devleti adına resmi olmayan yollar ile çıktığımız kartel avında arkamızda CIA, DEA ve JSOC gibi özel birimler bulunuyor..</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Kısacası oyunun hikayesinde Just Cause oyunlarından benzer bir narko-diktatörlüğü devirmek için uğraş veriyor, Bolivya'ya demokrasi getirmeye çalışıyoruz. Ghost Recon: Wildlands'in hikaye kısmında değinecek çok fazla detay bulunmuyor. Eski Ghost Recon oyunlarına kıyasla Wildlands hikayeden daha çok, oynanış özellikleri ile oyuncuların dikkatini çekmeye çalışıyor. Bu özelliklerin en başında ise tabii ki co-op oynanış geliyor.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>4 kişiye kadar co-op oynanış desteği sunan Ghost Recon: Wildlands, arkadaşlarımız ile oynayınca büyük keyif veren bir yapım. Özellikle oyunu birlikte oynayabileceğiniz ve aksiyondan daha çok taktiksel oynanış meraklı dostlarınız varsa, Ghost Recon: Wildlands'den aldığınız keyif de katlanarak artıyor. Yapacağınız operasyonlara yaklaşma şekliniz tamamen size bağlı. İsterseniz oyunda silahlarınıza sarılarak taktik maktik yok bam bam bam mod'unda takılabiliyor, isterseniz çıt çıkarmadan yılan gibi operasyon bölgesine sızabiliyor ve hedefinize ulaşabiliyorsunuz.</p>
+           
         </div>
         <br>
     </div>
